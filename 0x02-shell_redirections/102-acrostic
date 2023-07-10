@@ -1,2 +1,2 @@
 #!/bin/bash
-cat acrostic | cut -c 1 | paste -s | tr -d [:blank:]
+cat acrostic | cut -c 1 | paste -s | tr -d "[:blank:]"
